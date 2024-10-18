@@ -1,5 +1,5 @@
 "use client";
-import { addCommentFormAction } from "@/app/main/new-post/actions";
+import { addCommentFormAction } from "@/app/new-post/actions";
 import { createClient } from "@/utils/supabase/client";
 import { useFormState } from "react-dom";
 import { useState, useEffect } from "react";
