@@ -3,7 +3,7 @@
 import { createClient } from "@/utils/supabase/client";
 import { useEffect, useState } from "react";
 import AddComment from "./addComment";
-import { likeAction } from "@/app/(main)/new-post/actions";
+import { likeAction } from "@/app/main/new-post/actions";
 import { useFormState } from "react-dom";
 import PostLikes from "./PostLikes";
 import PostComments from "./postComments";
